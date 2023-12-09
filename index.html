@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holland Chic</title>
+  <!-- BOOTSRAP CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- BOX ICON -->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/Picture/logo.jpg" type="image/x-icon" style="border-radius: 100px;">
+</head>
+<body>
+  <!-- navbar -->
+  <div class="navibar fixed-top">
+    <input type="checkbox" id="menuBar">
+    <label for="menuBar">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+    <a href="#" class="logo">
+      <img src="assets/images/Picture/logo.jpg" alt="HC">
+      <span class="navbar-brand">Holland Chic</span>
+    </a>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="navbar-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="navbar-link">Product</a>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="navbar-link">Face</a>
+              <ul class="second-sub">
+                <li><a href="face-product/Powder.html" class="navbar-link">Powder</a></li>
+                <li><a href="face-product/Cushion.html" class="navbar-link">Cushion</a></li>
+                <li><a href="face-product/Concealer.html" class="navbar-link">Concealer</a></li>
+                <li><a href="face-product/Foundation.html" class="navbar-link">Foundation</a></li>
+                <li><a href="face-product/Blush.html" class="navbar-link">Blush</a></li>
+                <li><a href="face-product/Highlighter.html" class="navbar-link">Highlighter</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Eyes</a>
+              <ul class="second-sub">
+                <li><a href="eye-product/Eyeshadow.html" class="navbar-link">Eyeshadow</a></li>
+                <li><a href="eye-product/Eyeliner.html" class="navbar-link">Eyeliner</a></li>
+                <li><a href="eye-product/Mascara.html" class="navbar-link">Mascara</a></li>
+                <li><a href="eye-product/Eyebrow.html" class="navbar-link">Eyebrow</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Lips</a>
+              <ul class="second-sub">
+                <li><a href="lip-product/Lipstick.html" class="navbar-link">Lipstick</a></li>
+                <li><a href="lip-product/Liptint.html" class="navbar-link">Liptint</a></li>
+                <li><a href="lip-product/Lipmate.html" class="navbar-link">Lipmate</a></li>
+                <li><a href="lip-product/lipgloss.html" class="navbar-link">Lipgloss</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="register.html" class="navbar-link">Login/Register</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="navbar-menu">
+      <li class="nav-item">
+        <a href="shopping-bag.html"><i class='bx bx-shopping-bag'></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="fav-item.html"><i class='bx bx-heart'></i></a>
+      </li>
+      <li class="nav-item">
+        <span class="darkMode"><i class="bx bxs-moon"></i></span>
+        <span class="defaultMode"><i class="bx bxs-sun"></i></span>
+      </li>
+    </ul>
+    <div class="navBar">
+      <input type="search" placeholder="Search here. . ." class="searchForm">
+      <div class="Btn">
+        <span class="searchBtn"><i class='bx bx-search'></i></span>
+        <span class="closeBtn"><i class='bx bx-x'></i></span>
+      </div>
+    </div>
+  </div>
+  <!-- navbar end -->
+
+  <!-- main -->
+  <header class="position-relative" id="header-carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item main-item active">
+          <div class="background-img" style="background-image: url(assets/images/Picture/bestseller.jpg);"></div>
+          <div class="carousel-caption1 d-sm-block">
+            <h2>Best Seller</h2>
+            <button class="view-btn"><a href="bestseller-product.html">View Product</a></button>
+          </div>
+        </div>
+        <div class="carousel-item main-item">
+          <div class="background-img1" style="background-image: url(assets/images/Picture/promo.jpg);"></div>
+          <div class="carousel-caption2 d-sm-block">
+            <h2>Promo</h2>
+            <button class="view-btn"><a href="promo-product1.html">View Product</a></button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon prev-btn" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon next-btn" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <!-- main end -->
+
+  <!-- category -->
+  <section id="category" data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+    <h1>SHOP BY CATEGORY</h1>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col category-bg" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <a href="Face.html">
+          <div class="category-item" style="background-image: url(assets/images/Picture/face.jpg);">
+            <p class="category-text">Face</p>
+          </div>
+        </a>
+        </div>
+        <div class="col category-bg" data-aos="fade-bottom"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <a href="Lips.html">
+          <div class="category-item2" style="background-image: url(assets/images/Picture/lips.jpg);">
+            <p class="category-text">Lips</p>
+          </div>
+        </a>
+        </div>
+        <div class="col category-bg" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <a href="Eyes.Html">
+          <div class="category-item1" style="background-image: url(assets/images/Picture/eyes.jpg);">
+            <p class="category-text">Eyes</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- category end -->
+
+  <!-- review -->
+  <section id="review" class="carousel slide" data-bs-slide="carousel" style="padding-top: 200px; padding-bottom: 300px;">
+    <div class="title text-center">
+      <h2 class="position-relative d-inline-block py-5">Products Review</h2>
+    </div>
+    <div class="container carousel-inner d-flex align-item-center py-md-5" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0">
+      <div class="text-center carousel-item active">
+        <div class="carousel-caption">
+          <div class="carousel-img">
+            <a href="#"><img src="https://i.pinimg.com/564x/88/ea/46/88ea46905182ac6199f54b8eedf51eb5.jpg" alt=""></a>
+          </div>
+          <div class="carousel-text">
+            <h5 class="fs-md-4">Dior Cushion CD</h5>
+            <h2 class="fw-bold fs-5">Syahira Nay</h1>
+              <div class="rating mt-3 font-p">
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+              </div>
+            <p class="font-p">Baguss, dari segi harga juga affordable, pigmennya lumayan banget keluar, tapi juga ga sepigmen itu dimana ini tipe cushion fav aku. kalau mau tebel bisa banget di build up, fall outnya lumayan sih. tapi overall produk bagus ga ngecewain sama sekali</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center carousel-item">
+        <div class="carousel-caption">
+          <div class="carousel-img">
+            <a href="#"><img src="https://i.pinimg.com/564x/84/df/e7/84dfe72280a1b91d6de67518b4321f18.jpg" alt=""></a>
+          </div>
+          <div class="carousel-text">
+            <h5 class="fs-md-4">Milk Highlighter Small</h5>
+            <h2 class="fw-bold fs-5">Salsabila</h1>
+              <div class="rating mt-3 font-p">
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+              </div>
+            <p class="font-p">beli ini juga karna murah dan ternyata wowww dia blinding loh!?! Warnanya cantik banget dan ga kalah bagus dari highligher merk lain! Tapi memang agak harus lebih sering di touch up, tapi gapapalah kemasannya kecil gini jadi gampang dibawa kemana mana juga hihi</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center carousel-item">
+        <div class="carousel-caption">
+          <div class="carousel-img">
+            <a href="#"><img src="https://i.pinimg.com/564x/44/d1/ac/44d1ac0cb719ed3edad213205c2fa14c.jpg" alt=""></a>
+          </div>
+          <div class="carousel-text">
+            <h5 class="fs-4">Clio Pallete Cherish</h5>
+            <h2 class="fw-bold fs-5">Cahyani</h1>
+              <div class="rating mt-3 font-p">
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+              </div>
+            <p class="font-p">Aku pakai produk ini sudah lumayan lama, harganya juga terjangkau, dipakai bagus juga warnanya,tidak gampang luntur dan bikin fresh di wajah aku..aku bakal rekomendasiin produk ini ke teman teman aku karena memang hasilnya sebagus itu..
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center carousel-item">
+        <div class="carousel-caption">
+          <div class="carousel-img">
+            <a href="#"><img src="https://i.pinimg.com/564x/8e/4d/51/8e4d51a3584f0510e5e31ad8f888c34d.jpg" alt=""></a>
+          </div>
+          <div class="carousel-text">
+            <h5 class="fs-4">Ear pear Liptint</Title></h5>
+            <h2 class="fw-bold fs-6">Assyifah</h1>
+              <div class="rating mt-3 font-p">
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+                <span class="text-peach"><i class='bx bxs-star'></i></span>
+              </div>
+            <p class="font-p"> Kalau ini mah liptint legend paling lama aku pakai,aku gak tau udah habis berapa botol karena secinta itu mah sama ini liptint,dari tekstur dan ketahan nya aku suka,meskipun sedikit transfer ya namanya liptint masih oke menurut kok, pokoknya the best  </p>
+          </div>
+        </div>
+      </div>
+    <div class="text-center carousel-item">
+      <div class="carousel-caption">
+        <div class="carousel-img">
+          <a href="#"><img src="https://i.pinimg.com/236x/b4/cd/e6/b4cde6a31078a590162e407d0a6eb510.jpg" alt=""></a>
+        </div>
+        <div class="carousel-text">
+          <h5 class="fs-4">Fenty Beauty Mascara</h5>
+          <h2 class="fw-bold fs-6">Tarissa</h1>
+            <div class="rating mt-3 font-p">
+              <span class="text-peach"><i class='bx bxs-star'></i></span>
+              <span class="text-peach"><i class='bx bxs-star'></i></span>
+              <span class="text-peach"><i class='bx bxs-star'></i></span>
+              <span class="text-peach"><i class='bx bxs-star'></i></span>
+              <span class="text-peach"><i class='bx bxs-star'></i></span>
+            </div>
+          <p class="font-p"> BAGUS BANGET KARENA ADA FIBER NYAA jadi makin panjang, tebel, anti badai banget pokoknyaaa, terus juga tahan lama tahan dari tangisan banjir wkwk, bener-bener tahan lama ya walaupun kalo bersihin harus effort pake cleasing balm or cleansing oil atau mungkin keduanya biar ilang tapi ini best banget aslii  </p>
+        </div>
+      </div>
+    </div>
+  <div class="text-center carousel-item">
+    <div class="carousel-caption">
+      <div class="carousel-img">
+        <a href="#"><img src="https://i.pinimg.com/564x/3e/28/3e/3e283e5082568b7a88c01aee31dc9344.jpg" alt=""></a>
+      </div>
+      <div class="carousel-text">
+        <h5 class="fs-4">Gucci Face Foundation</h5>
+        <h2 class="fw-bold fs-6">Cintya</h1>
+          <div class="rating mt-3 font-p">
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+          </div>
+        <p class="font-p"> Foundation ini tidak membuat wajahku menjadi breakout. Yang paling aku suka dari foundation ini adalah teksturnya yang cair sehingga mudah diblend. Walaupun harus mengaplikasikan foundie ini sekitar dua atau tiga kali untuk hasil yang full coverage, namun hasil yang diberikan sangat bagus karena dapat mengcover dark spot di wajah. Foundation ini juga akan menyatu dengan warna kulit aslimu dan tahan lama productnation </p>
+      </div>
+    </div>
+  </div>
+  <div class="text-center carousel-item">
+    <div class="carousel-caption">
+      <div class="carousel-img">
+        <a href="#"><img src="https://i.pinimg.com/564x/2b/04/8c/2b048cde401ae4b9a35208db2177b0c0.jpg" alt=""></a>
+      </div>
+      <div class="carousel-text">
+        <h5 class="fs-4">Glossier Peachies</h5>
+        <h2 class="fw-bold fs-6">Verana</h1>
+          <div class="rating mt-3 font-p">
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+            <span class="text-peach"><i class='bx bxs-star'></i></span>
+          </div>
+        <p class="font-p"> bagus banget wanginya mirip berry, teksturnya moist bgt + warnanya cakep sumpah wajib beli bgt.. btw ini lip gloss pertama aku jg aku blm bisa bandingin dngn lip gloss lain hehehe.. tapi cinta bgt sih sama lip gloss pinkflash aaarggg  </p>
+      </div>
+    </div>
+  </div>
+  <div class="text-center carousel-item">
+    <div class="carousel-caption">
+       <div class="carousel-img">
+          <a href="#"><img src="https://i.pinimg.com/564x/27/b7/75/27b7755d0b2a0beb80d15f1fd2ea2427.jpg" alt=""></a>
+       </div>
+       <div class="carousel-text">
+         <h5 class="fs-4">Milk Highlighter</h5>
+         <h2 class="fw-bold fs-6">Hanisah</h1>
+           <div class="rating mt-3 font-p">
+             <span class="text-peach"><i class='bx bxs-star'></i></span>
+             <span class="text-peach"><i class='bx bxs-star'></i></span>
+             <span class="text-peach"><i class='bx bxs-star'></i></span>
+             <span class="text-peach"><i class='bx bxs-star'></i></span>
+             <span class="text-peach"><i class='bx bxs-star'></i></span>
+            </div>
+         <p class="font-p"> tiap mau pake highlighter ini rasanya sayang kalo mau pake, karna bagus bgtt!!🥺 bener bener blinding tp ga bikin blentong putih putih gitu, teksturnya halus bgt, partikel shimmernya bener bener kecil kecil, awet juga ga gampang ilang, suka bgt deh sama highlighter ini😭❤️  </p>
+       </div>
+      </div>
+  </div>
+  <div class="text-center carousel-item">
+    <div class="carousel-caption">
+      <div class="carousel-img">
+        <a href="#"><img src="https://i.pinimg.com/564x/e1/76/ad/e176ad893eac20dfdcc3bb2e92f43306.jpg" alt=""></a>
+      </div>
+     <div class="carousel-text">
+       <h5 class="fs-4">Pixi Blush Glow</h5>
+       <h2 class="fw-bold fs-6">Taniaa</h1>
+         <div class="rating mt-3 font-p">
+        <span class="text-peach"><i class='bx bxs-star'></i></span>
+        <span class="text-peach"><i class='bx bxs-star'></i></span>
+        <span class="text-peach"><i class='bx bxs-star'></i></span>
+        <span class="text-peach"><i class='bx bxs-star'></i></span>
+      </div>
+    <p class="font-p"> My best powder blush ever!! 😍 Sesuka ituuu sm warnanya yg menyatu banget dgn outfit apapun, makeup nude maupun bold, hijab netral maupun warna warni.. 😍 Meskipun teksturnya agak powdery, tp pigmentasinya pas banget & bs diatur mau lbh nampol ato natural look aja..  Minusnya cm di packagingnya yg gampang rapuh aja sih,jd ringkih banget kalo udah jatuh ya ambyaaarr isinya.. Tp.. meskipun ambyar ya msh bs dipake & bagus2 ajaa.. </p>
+  </div>
+</div>
+</div>
+</div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#review" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon text-bg-dark the-control next-btn" style="border-radius: 50%;"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#review" data-bs-slide="next">
+      <span class="carousel-control-next-icon text-bg-dark prev-btn" style="border-radius: 50%;"></span>
+    </button>
+  </section>
+  <!-- review end -->
+
+  <!-- footer -->
+  <footer class="my-footer" data-aos="fade-up">
+    <div class="container">
+      <div class="footer-box">
+        <div class="row text-start">
+          <div class="col">
+            <p>Help</p>
+            <div class="col">
+              <a href="orders.html">My Orders</a>
+            </div>
+            <div class="col">
+              <a href="payment.html">Payment</a>
+            </div>
+          </div>
+          <div class="col">
+            <p>Quick Links</p>
+            <div class="col">
+              <a href="about.html">About Us</a>
+            </div>
+            <div class="col">
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="col">
+            <p>Follow Us</p>
+            <a href="#" class="footer-text"><i class='bx bxl-instagram-alt footer-text'></i></a>
+            <a href="#" class="footer-text"><i class="bx bxl-twitter footer-text"></i></a>
+            <a href="#" class="footer-text"><i class='bx bxl-gmail footer-text'></i></a>
+            <a href="#" class="footer-text"><i class="bx bxl-facebook-circle footer-text"></i></a>
+            <a href="#" class="footer-text"><i class='bx bxl-tiktok footer-text' ></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+  <!-- BOOTSRAP JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- My JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <!-- AOS JavaScript -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
